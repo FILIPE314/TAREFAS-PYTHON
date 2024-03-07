@@ -1,6 +1,6 @@
-#Armazenando dados em uma variável e imprimindo uma mensagem para o usuário
+#Armazenando dados em uma variável e imprimindo uma mensagem para o usuário.
 f = int(input().strip())
-#Fazendo os calcúlos
+#Fazendo os calcúlos.
 cubo = f**3
-#Imprimindo o número calculado ao cubo
+#Imprimindo o número calculado ao cubo.
 print(cubo)
