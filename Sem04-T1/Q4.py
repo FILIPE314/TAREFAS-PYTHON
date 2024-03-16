@@ -5,5 +5,5 @@ hora = int(input("Coloque aqui a hora atual:"))
 #Fazendo os calcúlos.
 minuto = hora*60
 segundo = minuto*60
-#Imprimindo a data formatada na ordem certa.
+#Imprimindo os segundos na tela do ususário.
 print('Segundos que se passaram depois da meia noite até a hora recente:', segundo)
