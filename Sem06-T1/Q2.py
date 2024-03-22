@@ -1,7 +1,7 @@
 # função que cálcula qual o código do caráctere digitado
 def cod_caractere(caractere):
     # imprime o resultado quando a função é acionada
-    print(ord(caractere))
+    print('Esse é o código do seu caractere:',ord(caractere))
 # função (main) que inicia e termina o programa
 def main():
     # variável que imprime uma informação na tela e armazenam dados

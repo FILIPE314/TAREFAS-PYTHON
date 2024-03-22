@@ -1,13 +1,13 @@
-# função que cálcula quantas sílabas tem um uma palavra
-def silabas(palavra):
+# função que arredonda um número real
+def arredonda(numero):
     # imprime o resultado quando a função é acionada
-    print('Essa palavra tem:',len(palavra),'sílabas')
+    print('Número arredondado:',round(numero))
 # função (main) que inicia e termina o programa
 def main():
     # variável que imprime uma informação na tela e armazenam dados
-    palavra = input('Digite uma palavra par que possamos cálcular quantas sílabas ela tem:')
-    # acionando a função
-    silabas(palavra)
+    numero = float(input('Digite aqui um número real para que possa ser arredondado:'))
+    # acionando a fnção
+    arredonda(numero)
 # complementar da função (main) essa encerra o programa
 if __name__=='__main__':
     main()

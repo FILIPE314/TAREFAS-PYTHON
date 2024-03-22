@@ -24,7 +24,9 @@ def main():
     numero5 = int(input('Digite um número:'))
     # imprime uma mensagem na tela com o resultado dos cálculos
     print('O maior número entre os 5 é:', maior(numero1,numero2,numero3,numero4,numero5))
+    # imprime uma mensagem na tela com o resultado dos cálculos
     print('O menor é:', menor(numero1,numero2,numero3,numero4,numero5))
+    # imprime uma mensagem na tela com o resultado dos cálculos
     print('E a média entre eles é:', media(numero1,numero2,numero3,numero4,numero5))
 # complementar da função (main) essa encerra o programa
 if __name__=='__main__':

@@ -24,7 +24,9 @@ def main():
     valor = float(input('Digite o valor de um produto e iremos calcular o seu preço com desconto, o valor da prestação dividido em 5 vezes e o valor acrescentado de juros e dividido em 10 vezes:'))
     # imprime uma mensagem na tela com o resultado dos cálculos
     print('O valor de seu produto com 9% de desconto:',desconto(valor))
+    # imprime uma mensagem na tela com o resultado dos cálculos
     print('O valor do seu produto dividido em 5 prestações:',prestacao(valor))
+    # imprime uma mensagem na tela com o resultado dos cálculos
     print('O valor do seu produto acrescentado em juros e dividido em 10 prestações:',juros(valor))
 # complementar da função (main) essa encerra o programa
 if __name__=='__main__':
