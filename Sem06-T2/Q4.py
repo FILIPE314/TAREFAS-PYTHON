@@ -4,7 +4,7 @@ def idade_espacial(idade):
     print('Você tem',idade // 2,'anos espaciais')
 # função (main) que inicia e termina o programa
 def main():
-    # variável que imprime uma informação na tela e armazenam dados
+    # variável que imprime uma informação na tela e armazena dados
     idade = int(input('Digite aqui sua idade terrestre para saber sua idade ESPACIAL:'))
     # acionando a função
     idade_espacial(idade)

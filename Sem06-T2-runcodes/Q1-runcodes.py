@@ -4,7 +4,9 @@ def caractere(frase):
     print(len(frase))
 # função (main) que inicia e termina o programa
 def main():
+    # variável que imprime uma informação na tela e armazena dados
     frase = input().strip()
+    # aciona a função
     caractere(frase)
 # complementar da função (main) essa encerra o programa
 if __name__=='__main__':

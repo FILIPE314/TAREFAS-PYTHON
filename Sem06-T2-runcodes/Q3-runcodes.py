@@ -8,9 +8,9 @@ def banana(preco2):
     return preco2 * 2
 # função (main) que inicia e termina o programa
 def main():
-    # variável que imprime uma informação na tela e armazenam dados
+    # variável que imprime uma informação na tela e armazena dados
     preco = float(input().strip())
-    # variável que imprime uma informação na tela e armazenam dados
+    # variável que imprime uma informação na tela e armazena dados
     preco2 = float(input().strip())
     # imprime uma mensagem(formatada) na tela com o resultado dos cálculos
     print(f'{maca(preco) + banana(preco2):.2f}')

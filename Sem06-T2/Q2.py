@@ -4,7 +4,7 @@ def arredonda(numero):
     print('Número arredondado:',round(numero))
 # função (main) que inicia e termina o programa
 def main():
-    # variável que imprime uma informação na tela e armazenam dados
+    # variável que imprime uma informação na tela e armazena dados
     numero = float(input('Digite aqui um número real para que possa ser arredondado:'))
     # acionando a fnção
     arredonda(numero)
