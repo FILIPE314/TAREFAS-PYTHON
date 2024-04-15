@@ -19,7 +19,7 @@ def total(kg_total,total_gasto):
 # função (main) que inicia e termina o programa
 def main():
     # imprime uma informação na tela
-    print('Digite quantos quilos de fruta você comprou para saber o quanto gastou')
+    print('Digite quantos quilos de fruta você comprou para saber o quanto gastou.')
     # variável que imprime uma informação na tela e armazena dados
     morango_kg = float(input('Digite quantos quilos de morango você comprou:'))
     # variável que imprime uma informação na tela e armazena dados
